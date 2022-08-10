@@ -1,0 +1,83 @@
+body {
+  background: hsl(217, 54%, 11%);
+  /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh; */
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 10% 0;
+}
+.content {
+  background-color: hsl(215, 32%, 27%);
+  padding: 20px;
+  /* width: 80%; */
+  /* height: 100%; */
+  margin: 13px;
+  border-radius: 10px;
+  /* margin-top: 50px; */
+}
+.equilibrium img {
+  width: 100%;
+  /* padding-top: 20px; */
+  border-radius: 15px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.eth p {
+  display: inline-block;
+  margin-left: 10px;
+}
+.clock p {
+  display: inline-block;
+  margin-left: 10px;
+}
+.clock {
+  text-align: right;
+}
+.one img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h2 {
+  color: hsl(0, 0%, 100%);
+}
+p {
+  color: hsl(215, 51%, 70%);
+}
+p.eth {
+  color: hsl(178, 100%, 50%);
+}
+span {
+  color: hsl(0, 0%, 100%);
+}
+hr {
+  color: hsl(215, 32%, 27%);
+}
+
+@media (min-width: 700px) {
+  .main {
+    /* margin: 0; */
+  }
+
+  .content {
+    width: 400px;
+    max-width: 40%;
+  }
+}
